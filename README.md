@@ -17,4 +17,7 @@ Which also is promoting exercise and helping people out :)
 
 ## Technical stuff
 
-The app is going to be made in React native and will connect to a Rest Api which is being headed up by 
+The app is going to be made in React native and will connect to a Rest Api which is being headed up by XRMON
+
+## Flow
+https://www.figma.com/file/mItqJCVwiDuh6U4DsYEqkC/Flow?node-id=1%3A9
