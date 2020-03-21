@@ -28,7 +28,7 @@ The app is going to be made in React native and will connect to a Rest Api which
 
 ### Prototyping Stage
 
-We are looking at the community to help out here and help plan what the pages should look like :) . From this we then can plan the backend and the frontend. Hoping to get this done by the 21st https://www.figma.com/file/mItqJCVwiDuh6U4DsYEqkC/Flow?node-id=1%3A9
+We are looking at the community to help out here and help plan what the pages should look like :) . From this we then can plan the backend and the frontend. Hoping to get this done by the 23rd https://www.figma.com/file/mItqJCVwiDuh6U4DsYEqkC/Flow?node-id=1%3A9
 
 ## Development stage
 
