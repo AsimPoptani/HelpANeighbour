@@ -11,10 +11,12 @@ import { NavigationContainer } from '@react-navigation/native';
 import Navigation from './Navigation'
 
 const App: () => React$Node = () => {
-  return (
+  return (<>
+    {/* Our navigation */}
     <NavigationContainer>
       <Navigation/>
     </NavigationContainer>
+    </>
   );
 };
 
