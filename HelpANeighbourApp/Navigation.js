@@ -12,9 +12,11 @@ import { createStackNavigator } from '@react-navigation/stack';
 // Main stack
 const HomeStack = createStackNavigator()
 
+// All of our pages
 App = () => {
     return(
-        <HomeStack.Navigator>
+        // Disable header mode
+        <HomeStack.Navigator headerMode='none'>
             <HomeStack.Screen name="Splashscreen" component={Splashscreen}/>
             <HomeStack.Screen name="ForgottenPasswordScreen" component={ForgottenPasswordScreen}/>
             <HomeStack.Screen name="AddItemScreen" component={AddItemScreen}/>
@@ -24,3 +26,5 @@ App = () => {
         </HomeStack.Navigator>
     )
 }
+
+export default App
