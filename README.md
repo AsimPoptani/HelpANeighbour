@@ -2,6 +2,8 @@
 
 [![DeepScan grade](https://deepscan.io/api/teams/8193/projects/10345/branches/141852/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=8193&pid=10345&bid=141852)
 
+[![Known Vulnerabilities](https://snyk.io/test/github/AsimPoptani/HelpANeighbour/badge.svg)](https://snyk.io/test/github/AsimPoptani/HelpANeighbour)
+
 ## What it is
 
 Help A Neighbour is an mobile app.
