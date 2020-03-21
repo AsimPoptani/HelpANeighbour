@@ -1,4 +1,5 @@
 # Help A Neighbour : Prototyping Stage
+
 ## What it is
 
 Help A Neighbour is an mobile app.
@@ -19,21 +20,33 @@ Which also is promoting exercise and helping people out :)
 
 The app is going to be made in React native and will connect to a Rest Api which is being headed up by XRMON
 
+## Stages
 
-## Stages 
 ### Prototyping Stage
+
 We are looking at the community to help out here and help plan what the pages should look like :) . From this we then can plan the backend and the frontend. Hoping to get this done by the 21st https://www.figma.com/file/mItqJCVwiDuh6U4DsYEqkC/Flow?node-id=1%3A9
 
 ## Development stage
+
 Want to get involved? Contact me on discord @audittxl or email me asim@poptani.com having the subject "Help A Neighbour - here to help" with what you can help out with. We are looking to get this done in 2 to 3 days.
 
 ## Demo it
+
 Going to demo it see what people think. We want as many comments as possible to help improve this app.
 
 ## Improve it
+
 Going to go through the same cycle as above. :)
 
 ### Want to help
+
 We need people to help in all stages agian contact me at @audittxl on discord or asim@poptani.com. I have no idea how to deal with large groups of devs so any help/experience would help.
 
 Thank you all :)
+
+## App Side
+
+To help speed up development and UI we have made the following decisions:
+
+- react-native-typography - We are using the material react-native-typography to make text look nice
+- ramda - Using this for list manipulations
