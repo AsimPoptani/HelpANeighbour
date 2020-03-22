@@ -1,0 +1,1 @@
+- Use Google cloud lambda service - super scalable
