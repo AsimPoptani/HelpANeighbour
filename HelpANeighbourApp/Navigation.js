@@ -4,7 +4,7 @@ import AddItemScreen from './screens/AddItemScreen'
 import ForgottenPasswordScreen from './screens/ForgottenPasswordScreen'
 import LoginPageScreen from './screens/LoginPageScreen'
 import OfferingsScreen from './screens/OfferingsScreen'
-import Splashscreen from './screens/Splashscreen'
+import Splashscreen from './screens/SplashScreen'
 import YourOfferingsScreen from './screens/YourOfferingsScreen'
 // Setup navigation
 import { createStackNavigator } from '@react-navigation/stack';
