@@ -3,11 +3,18 @@
     "pages" : {
         "AddItemScreen" :{},
         "ForgottenPasswordScreen":{},
-        "LoginPageScreen":{},
+        "LoginPageScreen":{
+            "Login":"Login"
+        },
         "OfferingsScreen": {},
         "YourOfferingsScreen":{},
-        "RegisterAndLoginPageScreen":{},
-        "RegisterPageScreen":{},
+        "RegisterAndLoginPageScreen":{
+            "Login":"Login",
+            "Register":"Register"
+        },
+        "RegisterPageScreen":{
+            "Register":"Register"
+        },
         "ThanksScreen":{},
         "SplashScreen":{}
     }
