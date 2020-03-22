@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, View, TouchableOpacity, StyleSheet } from 'react-native'
+import { Text, TouchableOpacity, StyleSheet } from 'react-native'
 import {iOSUIKit,iOSColors} from 'react-native-typography'
 import PropTypes from 'prop-types'
 
@@ -10,10 +10,10 @@ export default class Button extends Component {
     }
 
     render() {
-        const {containerStyle,text, textStyle,disabled,disabledColor,activeColor} = this.props 
+        const {containerStyle,text, textStyle,disabled,disabledColor,activeColor,onPress} = this.props 
         return (
-            <TouchableOpacity style={[{backgroundColor : disabled ? disabledColor : activeColor},ButtonStylesheet.containerStyle,containerStyle]}>
-            <Text style={[ButtonStylesheet.textStyle,textStyle]}> {text}</Text>
+            <TouchableOpacity onPress={onPress} style={[{backgroundColor : disabled ? disabledColor : activeColor},ButtonStylesheet.containerStyle,containerStyle]}>
+            <Text style={[ButtonStylesheet.textStyle,textStyle]}>{text}</Text>
             </TouchableOpacity>
         )
     }
@@ -23,7 +23,8 @@ Button.propTypes ={
     textStyle : PropTypes.object,
     text : PropTypes.string.isRequired,
     disabled: PropTypes.bool,
-    disabledColor: PropTypes.string
+    disabledColor: PropTypes.string,
+    onPress: PropTypes.func,
 }
 
 Button.defaultProps ={
@@ -31,7 +32,8 @@ Button.defaultProps ={
     text : "Button",
     disabled: false,
     disabledColor: iOSColors.gray,
-    activeColor: iOSColors.tealBlue
+    activeColor: iOSColors.tealBlue,
+    onPress: ()=>{}
 }
 
 const ButtonStylesheet = StyleSheet.create({
