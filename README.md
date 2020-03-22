@@ -1,5 +1,9 @@
 # Help A Neighbour : Prototyping Stage
 
+[![DeepScan grade](https://deepscan.io/api/teams/8193/projects/10345/branches/141852/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=8193&pid=10345&bid=141852)
+
+[![Known Vulnerabilities](https://snyk.io/test/github/AsimPoptani/HelpANeighbour/badge.svg)](https://snyk.io/test/github/AsimPoptani/HelpANeighbour)
+
 ## What it is
 
 Help A Neighbour is an mobile app.
@@ -24,7 +28,7 @@ The app is going to be made in React native and will connect to a Rest Api which
 
 ### Prototyping Stage
 
-We are looking at the community to help out here and help plan what the pages should look like :) . From this we then can plan the backend and the frontend. Hoping to get this done by the 21st https://www.figma.com/file/mItqJCVwiDuh6U4DsYEqkC/Flow?node-id=1%3A9
+We are looking at the community to help out here and help plan what the pages should look like :) . From this we then can plan the backend and the frontend. Hoping to get this done by the 23rd https://www.figma.com/file/mItqJCVwiDuh6U4DsYEqkC/Flow?node-id=1%3A9
 
 ## Development stage
 
