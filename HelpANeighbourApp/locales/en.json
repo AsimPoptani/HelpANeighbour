@@ -1,0 +1,14 @@
+{
+    "appName":"Help A Neighbour",
+    "pages" : {
+        "AddItemScreen" :{},
+        "ForgottenPasswordScreen":{},
+        "LoginPageScreen":{},
+        "OfferingsScreen": {},
+        "YourOfferingsScreen":{},
+        "RegisterAndLoginPageScreen":{},
+        "RegisterPageScreen":{},
+        "ThanksScreen":{},
+        "SplashScreen":{}
+    }
+}
